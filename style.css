@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+}
+p{
+    font-size:16px;
+    font-weight:400;
+    margin:10px;
+    color: hsl(224, 23%, 55%);
+}
+.card{
+    width:380px;
+    height:550px;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top:70px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius:20px;
+}
+.card-img{
+    width:380px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+.sub-card{
+    width:300px;
+    margin: auto;
+}
+.price{
+    display:flex;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:16px;
+    width:300px;
+    background:hsla(225, 100%, 94%, 0.534);
+}
+.price-button{
+    margin-left:50px;
+    font-size: 16px;
+   
+}
+
+.price-button:hover{
+    text-decoration: none;
+}
+.sub-card-2{
+    display: flex;
+    flex-direction:column;
+    width:300px;
+}
+.proceed-button{
+    margin-bottom:20px;
+    background:hsl(245, 75%, 52%);
+    color:hsl(225, 100%, 94%);
+    text-decoration: none;
+    padding:10px;
+    font-size: 16px;
+    border-radius:10px;
+}
+.proceed-button:hover{
+    background:hsla(245, 75%, 52%, 0.747);
+}
+.cancel-button{
+    margin-bottom:20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+.cancel-button:hover{
+    color:black;
+}
